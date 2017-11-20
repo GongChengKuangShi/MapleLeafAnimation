@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		294C06CC1FC2699500249AB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 294C06CB1FC2699500249AB0 /* AppDelegate.m */; };
+		294C06CF1FC2699500249AB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294C06CE1FC2699500249AB0 /* ViewController.m */; };
+		294C06D21FC2699500249AB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294C06D01FC2699500249AB0 /* Main.storyboard */; };
+		294C06D41FC2699500249AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 294C06D31FC2699500249AB0 /* Assets.xcassets */; };
+		294C06D71FC2699500249AB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294C06D51FC2699500249AB0 /* LaunchScreen.storyboard */; };
+		294C06DA1FC2699600249AB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 294C06D91FC2699600249AB0 /* main.m */; };
+		294C06E41FC2699700249AB0 /* MapleLeafAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 294C06E31FC2699700249AB0 /* MapleLeafAnimationTests.m */; };
+		294C06EF1FC2699700249AB0 /* MapleLeafAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 294C06EE1FC2699700249AB0 /* MapleLeafAnimationUITests.m */; };
+		294C06FE1FC26A1E00249AB0 /* LeapProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 294C06FD1FC26A1E00249AB0 /* LeapProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		294C06E01FC2699600249AB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 294C06BF1FC2699400249AB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 294C06C61FC2699400249AB0;
+			remoteInfo = MapleLeafAnimation;
+		};
+		294C06EB1FC2699700249AB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 294C06BF1FC2699400249AB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 294C06C61FC2699400249AB0;
+			remoteInfo = MapleLeafAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		294C06C71FC2699400249AB0 /* MapleLeafAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapleLeafAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		294C06CA1FC2699400249AB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		294C06CB1FC2699500249AB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		294C06CD1FC2699500249AB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		294C06CE1FC2699500249AB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		294C06D11FC2699500249AB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		294C06D31FC2699500249AB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		294C06D61FC2699500249AB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		294C06D81FC2699500249AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		294C06D91FC2699600249AB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		294C06DF1FC2699600249AB0 /* MapleLeafAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapleLeafAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		294C06E31FC2699700249AB0 /* MapleLeafAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapleLeafAnimationTests.m; sourceTree = "<group>"; };
+		294C06E51FC2699700249AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		294C06EA1FC2699700249AB0 /* MapleLeafAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapleLeafAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		294C06EE1FC2699700249AB0 /* MapleLeafAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapleLeafAnimationUITests.m; sourceTree = "<group>"; };
+		294C06F01FC2699700249AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		294C06FC1FC26A1E00249AB0 /* LeapProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeapProgressView.h; sourceTree = "<group>"; };
+		294C06FD1FC26A1E00249AB0 /* LeapProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeapProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		294C06C41FC2699400249AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294C06DC1FC2699600249AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294C06E71FC2699700249AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		294C06BE1FC2699400249AB0 = {
+			isa = PBXGroup;
+			children = (
+				294C06C91FC2699400249AB0 /* MapleLeafAnimation */,
+				294C06E21FC2699600249AB0 /* MapleLeafAnimationTests */,
+				294C06ED1FC2699700249AB0 /* MapleLeafAnimationUITests */,
+				294C06C81FC2699400249AB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		294C06C81FC2699400249AB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				294C06C71FC2699400249AB0 /* MapleLeafAnimation.app */,
+				294C06DF1FC2699600249AB0 /* MapleLeafAnimationTests.xctest */,
+				294C06EA1FC2699700249AB0 /* MapleLeafAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		294C06C91FC2699400249AB0 /* MapleLeafAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				294C06CA1FC2699400249AB0 /* AppDelegate.h */,
+				294C06CB1FC2699500249AB0 /* AppDelegate.m */,
+				294C06CD1FC2699500249AB0 /* ViewController.h */,
+				294C06CE1FC2699500249AB0 /* ViewController.m */,
+				294C06FC1FC26A1E00249AB0 /* LeapProgressView.h */,
+				294C06FD1FC26A1E00249AB0 /* LeapProgressView.m */,
+				294C06D01FC2699500249AB0 /* Main.storyboard */,
+				294C06D31FC2699500249AB0 /* Assets.xcassets */,
+				294C06D51FC2699500249AB0 /* LaunchScreen.storyboard */,
+				294C06D81FC2699500249AB0 /* Info.plist */,
+				294C06D91FC2699600249AB0 /* main.m */,
+			);
+			path = MapleLeafAnimation;
+			sourceTree = "<group>";
+		};
+		294C06E21FC2699600249AB0 /* MapleLeafAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				294C06E31FC2699700249AB0 /* MapleLeafAnimationTests.m */,
+				294C06E51FC2699700249AB0 /* Info.plist */,
+			);
+			path = MapleLeafAnimationTests;
+			sourceTree = "<group>";
+		};
+		294C06ED1FC2699700249AB0 /* MapleLeafAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				294C06EE1FC2699700249AB0 /* MapleLeafAnimationUITests.m */,
+				294C06F01FC2699700249AB0 /* Info.plist */,
+			);
+			path = MapleLeafAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		294C06C61FC2699400249AB0 /* MapleLeafAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 294C06F31FC2699700249AB0 /* Build configuration list for PBXNativeTarget "MapleLeafAnimation" */;
+			buildPhases = (
+				294C06C31FC2699400249AB0 /* Sources */,
+				294C06C41FC2699400249AB0 /* Frameworks */,
+				294C06C51FC2699400249AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapleLeafAnimation;
+			productName = MapleLeafAnimation;
+			productReference = 294C06C71FC2699400249AB0 /* MapleLeafAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		294C06DE1FC2699600249AB0 /* MapleLeafAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 294C06F61FC2699700249AB0 /* Build configuration list for PBXNativeTarget "MapleLeafAnimationTests" */;
+			buildPhases = (
+				294C06DB1FC2699600249AB0 /* Sources */,
+				294C06DC1FC2699600249AB0 /* Frameworks */,
+				294C06DD1FC2699600249AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				294C06E11FC2699600249AB0 /* PBXTargetDependency */,
+			);
+			name = MapleLeafAnimationTests;
+			productName = MapleLeafAnimationTests;
+			productReference = 294C06DF1FC2699600249AB0 /* MapleLeafAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		294C06E91FC2699700249AB0 /* MapleLeafAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 294C06F91FC2699700249AB0 /* Build configuration list for PBXNativeTarget "MapleLeafAnimationUITests" */;
+			buildPhases = (
+				294C06E61FC2699700249AB0 /* Sources */,
+				294C06E71FC2699700249AB0 /* Frameworks */,
+				294C06E81FC2699700249AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				294C06EC1FC2699700249AB0 /* PBXTargetDependency */,
+			);
+			name = MapleLeafAnimationUITests;
+			productName = MapleLeafAnimationUITests;
+			productReference = 294C06EA1FC2699700249AB0 /* MapleLeafAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		294C06BF1FC2699400249AB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = xrh;
+				TargetAttributes = {
+					294C06C61FC2699400249AB0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					294C06DE1FC2699600249AB0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 294C06C61FC2699400249AB0;
+					};
+					294C06E91FC2699700249AB0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 294C06C61FC2699400249AB0;
+					};
+				};
+			};
+			buildConfigurationList = 294C06C21FC2699400249AB0 /* Build configuration list for PBXProject "MapleLeafAnimation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 294C06BE1FC2699400249AB0;
+			productRefGroup = 294C06C81FC2699400249AB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				294C06C61FC2699400249AB0 /* MapleLeafAnimation */,
+				294C06DE1FC2699600249AB0 /* MapleLeafAnimationTests */,
+				294C06E91FC2699700249AB0 /* MapleLeafAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		294C06C51FC2699400249AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294C06D71FC2699500249AB0 /* LaunchScreen.storyboard in Resources */,
+				294C06D41FC2699500249AB0 /* Assets.xcassets in Resources */,
+				294C06D21FC2699500249AB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294C06DD1FC2699600249AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294C06E81FC2699700249AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		294C06C31FC2699400249AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294C06CF1FC2699500249AB0 /* ViewController.m in Sources */,
+				294C06DA1FC2699600249AB0 /* main.m in Sources */,
+				294C06CC1FC2699500249AB0 /* AppDelegate.m in Sources */,
+				294C06FE1FC26A1E00249AB0 /* LeapProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294C06DB1FC2699600249AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294C06E41FC2699700249AB0 /* MapleLeafAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		294C06E61FC2699700249AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294C06EF1FC2699700249AB0 /* MapleLeafAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		294C06E11FC2699600249AB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 294C06C61FC2699400249AB0 /* MapleLeafAnimation */;
+			targetProxy = 294C06E01FC2699600249AB0 /* PBXContainerItemProxy */;
+		};
+		294C06EC1FC2699700249AB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 294C06C61FC2699400249AB0 /* MapleLeafAnimation */;
+			targetProxy = 294C06EB1FC2699700249AB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		294C06D01FC2699500249AB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				294C06D11FC2699500249AB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		294C06D51FC2699500249AB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				294C06D61FC2699500249AB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		294C06F11FC2699700249AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		294C06F21FC2699700249AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		294C06F41FC2699700249AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U8M5497ZW;
+				INFOPLIST_FILE = MapleLeafAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XRH.MapleLeafAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		294C06F51FC2699700249AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U8M5497ZW;
+				INFOPLIST_FILE = MapleLeafAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XRH.MapleLeafAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		294C06F71FC2699700249AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U8M5497ZW;
+				INFOPLIST_FILE = MapleLeafAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XRH.MapleLeafAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapleLeafAnimation.app/MapleLeafAnimation";
+			};
+			name = Debug;
+		};
+		294C06F81FC2699700249AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U8M5497ZW;
+				INFOPLIST_FILE = MapleLeafAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XRH.MapleLeafAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapleLeafAnimation.app/MapleLeafAnimation";
+			};
+			name = Release;
+		};
+		294C06FA1FC2699700249AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U8M5497ZW;
+				INFOPLIST_FILE = MapleLeafAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XRH.MapleLeafAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MapleLeafAnimation;
+			};
+			name = Debug;
+		};
+		294C06FB1FC2699700249AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U8M5497ZW;
+				INFOPLIST_FILE = MapleLeafAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XRH.MapleLeafAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MapleLeafAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		294C06C21FC2699400249AB0 /* Build configuration list for PBXProject "MapleLeafAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				294C06F11FC2699700249AB0 /* Debug */,
+				294C06F21FC2699700249AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		294C06F31FC2699700249AB0 /* Build configuration list for PBXNativeTarget "MapleLeafAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				294C06F41FC2699700249AB0 /* Debug */,
+				294C06F51FC2699700249AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		294C06F61FC2699700249AB0 /* Build configuration list for PBXNativeTarget "MapleLeafAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				294C06F71FC2699700249AB0 /* Debug */,
+				294C06F81FC2699700249AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		294C06F91FC2699700249AB0 /* Build configuration list for PBXNativeTarget "MapleLeafAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				294C06FA1FC2699700249AB0 /* Debug */,
+				294C06FB1FC2699700249AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 294C06BF1FC2699400249AB0 /* Project object */;
+}
